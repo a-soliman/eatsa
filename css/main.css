@@ -1,0 +1,8 @@
+/*PRE FIXING*/
+html {
+	padding-left: 92px;
+}
+* {
+	padding: 0;
+	margin: 0;
+}
