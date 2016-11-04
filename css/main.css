@@ -44,3 +44,25 @@ html {
 	display: block;
     margin-bottom: 6px;
 }
+
+.contacts {
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 10px;
+	z-index: 100;
+}
+.contacts ul {}
+.contacts li {
+	display: inline-block;
+	list-style-type: none;
+	margin: 5px;
+}
+.contacts a {
+	color: #ec3524;
+	font-size: 20px;
+	padding: 10px 5px;
+}
+.contacts a:hover {
+	border-top: 2px solid #ec3524;
+}
