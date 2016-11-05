@@ -133,3 +133,48 @@ html {
     background-repeat: repeat;
     padding: 20px 0;
 }
+.skills{}
+.skills h2 {
+	font-family: 'Dosis', sans-serif;
+    color: #ec3524;
+    font-weight: 600;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+}
+.skills ul {}
+.skills label {
+	display: block;
+/*	text-align: left;*/
+}
+.skills li {
+	list-style-type: none;
+    display: inline-block;
+    background-color: #ec3524;
+    color: #fff;
+    margin: 5px 2px;
+    letter-spacing: 3px;
+}
+.certificates h2 {
+	font-family: 'Dosis', sans-serif;
+    color: #ec3524;
+    font-weight: 600;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+}
+.certificate {
+	/*text-align: left;*/
+}
+.certificate p {
+	list-style-type: none;
+    display: inline-block;
+    background-color: #ec3524;
+    color: #fff;
+    margin: 5px 2px;
+    letter-spacing: 3px;
+}
+.certificate span {
+	background-color: #fff;
+
+}
