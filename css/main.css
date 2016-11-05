@@ -230,3 +230,50 @@ html {
     color: #454545;
     font-size: 22px;
 }
+
+/*Plan*/
+.plan {
+	text-align: center;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    padding: 20px 0;
+}
+.planWrapper {}
+.expectControlers {
+	margin-bottom: 50px;
+}
+.expectControlers a {
+    background-color: #ec3524;
+    border: 1px solid #000000;
+    color: #ffffff;
+    margin: 10px;
+}
+.expectControlers a:hover {
+	font-weight: 600; 
+	color: #ffffff;
+}
+
+.plan h2 {
+	margin: 40px auto;
+}
+.plan h2 span {
+	padding: 13px 20px;
+    border-radius: 50%;
+    background-color: #ec3524;
+    color: #fff;
+}
+.plan h4 {
+	font-family: 'Dosis', sans-serif;
+    letter-spacing: 2px;
+    color: #454545;
+    font-size: 35px;
+    margin: 10px auto 25px auto;
+    color: #797979;
+}
+.plan hr {
+    height: 2px;
+    width: 20%;
+    background-color: #ec3524;
+    margin: 20px auto;
+}
