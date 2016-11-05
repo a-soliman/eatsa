@@ -283,3 +283,27 @@ html {
 	border: 1px solid #ec3524;
 	font-weight: 600;
 }
+
+/*story*/
+.story {
+	text-align: center;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    padding: 20px 0;
+}
+.story p {
+	font-family: sans-serif;
+}
+.story h5 {
+	font-size: 21px;
+    color: #ec3524;
+    font-weight: 600;
+}
+.story h4 {
+	font-size: 21px;
+    color: #ec3524;
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 2px;
+}
