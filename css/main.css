@@ -178,3 +178,30 @@ html {
 	background-color: #fff;
 
 }
+
+/*responsive-design*/
+.responsive-design {
+    padding: 40px 0;
+    background-color: #fff;
+    margin-top: 100px;
+}
+.responsive-design h3 {
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 2px;
+    color: #454545;
+    font-size: 35px;
+    color: #ec3524;
+}
+.responsive-design .content {
+	padding: 50px 20px;
+}
+.responsive-design p {
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 2px;
+    color: #454545;
+    font-size: 22px;
+}
+.responsive-design img {
+	display: inline;
+	max-width: 300px
+}
