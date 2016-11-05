@@ -124,3 +124,12 @@ html {
 .food img:hover {
 	-webkit-transform: rotate(10deg);
 }
+
+/*Why me*/
+.whyMe {
+	text-align: center;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    padding: 20px 0;
+}
