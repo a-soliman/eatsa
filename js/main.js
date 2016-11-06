@@ -8,4 +8,8 @@ $(document).ready(function() {
 	var secondMonthContent = $(".secondMonth")
 	var thirdMonthContent = $(".thirdMonth")
 
+	$("#monthOne").addClass("selected")
+	$(".expect-text").css("display", "none")
+	firstMonthContent.css("display", "block")
+
 })
