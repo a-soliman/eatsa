@@ -1,7 +1,7 @@
 $(document).ready(function() {
-
 	//Nav Bar Slide Down
 	$(".navbar").slideDown(2000)
+
 
 	//My Plan Car
 	var firstMonthContent = $(".firstMonth")
@@ -11,6 +11,7 @@ $(document).ready(function() {
 	$("#monthOne").addClass("selected")
 	$(".expect-text").css("display", "none")
 	firstMonthContent.css("display", "block")
+	
 
 	$("#monthOne").click(function(event) {
 		$(".expect-text").css("display", "none")
