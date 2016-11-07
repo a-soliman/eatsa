@@ -1,14 +1,14 @@
 html {
 	padding-left: 92px;
+	background-color: #e4e2d9;
 }
 * {
 	padding: 0;
 	margin: 0;
 }
 .navbar {
-	display: none;
 	position: fixed;
-	left: 0;
+	left: -92px;
 	background-color: #ec3524;
 	text-align: center;
 	height: 100%;
@@ -43,7 +43,6 @@ html {
 	display: block;
     margin-bottom: 6px;
 }
-
 .contacts {
 	position: fixed;
 	top: 0;
@@ -86,8 +85,10 @@ html {
 	color: #ec3524;
 	font-size: 70px;
 	margin: 10px auto;
-    font-weight: bold;
     letter-spacing: 4.4px;
+}
+.home .text h2 {
+	font-weight: bold;
 }
 .text h3 {
 	font-family: 'Dosis', sans-serif;
@@ -237,26 +238,43 @@ html {
     background-image: url(../img/bg.jpg);
     background-size: cover;
     background-repeat: repeat;
-    padding: 20px 0;
+    padding: 10px 0 50px 0;
 }
 .planWrapper {}
 .expectControlers {
 	margin-bottom: 50px;
+	position: static;
+z-index: 15;
+width: unset;
+padding-left: unset;
+margin-left: unset;
+text-align: center;
+list-style: none;
 }
-.expectControlers a {
+.expectControlers li {
     background-color: #ec3524;
     border: 1px solid #000000;
     color: #ffffff;
     margin: 10px;
+    text-indent: 0;
+    width: unset;
+    height: unset;
 }
-.expectControlers a:hover {
+.expectControlers li:hover {
 	font-weight: 600; 
 	color: #ffffff;
 }
-
-.plan h2 {
-	margin: 40px auto;
+.plan .carousel-indicators .active {
+	width: unset;
+	height: unset;
+	margin: 10px;
+	background-color: #fff;
+	color: red;
 }
+.plan h2 {
+	margin: 0 auto 40px 0;
+}
+
 .plan h2 span {
 	padding: 13px 20px;
     border-radius: 50%;
@@ -309,3 +327,10 @@ html {
     font-family: 'Dosis', sans-serif;
     letter-spacing: 2px;
 }
+
+
+/*Boottstrap Carousel*/
+.carousel-inner .active, 
+.carousel-inner .item {
+	padding: 50px 0;
+} 
