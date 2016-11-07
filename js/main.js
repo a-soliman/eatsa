@@ -1,7 +1,9 @@
+
 $(document).ready(function() {
 	//Nav Bar Slide Down
-	$(".navbar").slideDown(2000)
-
+	// $(".navbar").slideDown(2000)
+	// $(".navbar").css("left : 0;", 1000)
+	$(".navbar").animate({left: '0'}, 500)
 
 	//My Plan Car
 	var firstMonthContent = $(".firstMonth")
@@ -13,7 +15,10 @@ $(document).ready(function() {
 	firstMonthContent.css("display", "block")
 	
 
+
+
 	$("#monthOne").click(function(event) {
+		console.log("clicked")
 		$(".expect-text").css("display", "none")
 		firstMonthContent.fadeIn(1000)
 
